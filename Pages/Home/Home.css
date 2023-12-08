@@ -1,0 +1,47 @@
+.banner .banner-details {
+  background-image: url("../../assets/back2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  background-position: 70%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.banner {
+  overflow-x: hidden;
+}
+.banner .banner-details .data {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  justify-content: center;
+}
+.banner .banner-details .data h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+.banner .banner-details .data h3 {
+  font-size: 20px;
+}
+.feature-part h1 {
+  color: var(--dark-color);
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 35px;
+}
+.feature-part p {
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media (max-width: 790px) {
+  .banner .banner-details .data h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .banner .banner-details .data h3 {
+    font-size: 18px;
+  }
+}

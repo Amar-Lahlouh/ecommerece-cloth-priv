@@ -1,0 +1,31 @@
+.banner-info {
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.first-banner {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+}
+.first-banner img {
+  width: 150px;
+  height: 200px;
+}
+.first-banner:hover {
+  box-shadow: 1px 4px 17px 4px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 790px) {
+  .banner-sale {
+    padding: 20px;
+  }
+  .banner-info button {
+    width: 80%;
+  }
+}

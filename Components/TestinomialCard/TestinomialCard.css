@@ -1,0 +1,15 @@
+.test-img {
+  border-radius: 60%;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 10px;
+}
+.testinomial-info {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+}

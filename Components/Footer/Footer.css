@@ -1,0 +1,85 @@
+.account {
+  font-style: italic;
+  color: brown;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.footer {
+  background-color: var(--main-color);
+}
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.address {
+  font-style: italic;
+  font-weight: 600;
+}
+.icon:hover {
+  color: brown;
+}
+.contact-details p:last-child {
+  font-weight: 700;
+  margin-left: 3px;
+}
+.contact-details p {
+  margin-bottom: 20px;
+}
+.account h2 {
+  margin-bottom: 5px;
+}
+.privacy a {
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.about-details a {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 2px;
+}
+.about-details {
+  padding-left: 10px;
+}
+
+.about-details h2 {
+  margin: 20px;
+}
+
+.about-details a:hover {
+  color: brown;
+}
+
+.google {
+  width: 170px;
+  border-radius: 20px;
+  transition-duration: 1s;
+}
+
+.google:hover {
+  transform: translateY(-10px);
+}
+.policy {
+  padding: 20px;
+}
+.pay {
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+@media (max-width: 790px) {
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+  .pay {
+    width: 160px;
+  }
+  .google {
+    width: 100px;
+  }
+}

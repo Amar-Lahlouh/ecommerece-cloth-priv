@@ -1,0 +1,46 @@
+.signup input {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.acc-log {
+  display: flex;
+  justify-content: space-between;
+}
+.signup h2,
+.signup h5 {
+  text-align: center;
+  color: var(--dark-color);
+}
+.signup h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.sign-button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 40%;
+  margin: auto;
+}
+.sign-button:hover {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+@media (max-width: 790px) {
+  .signup {
+    width: 100%;
+  }
+  .signup h2 {
+    font-size: 25px;
+  }
+  form {
+    width: 100%;
+  }
+  .signup p,
+  input {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,52 @@
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: lightgray;
+  padding: 50px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.email-first {
+  text-align: center;
+  font-family: "Poppins";
+}
+.email-first h5 {
+  font-size: 27px;
+  font-weight: 600;
+  color: brown;
+}
+
+.email-second input {
+  border: none;
+  width: 100%;
+
+  padding: 9px;
+  border-radius: 10px;
+}
+.submit-button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.submit-button:hover {
+  border: 3px solid black;
+}
+
+@media (max-width: 790px) {
+  .submit-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 10px;
+  }
+  .email-second input {
+    width: 100%;
+  }
+}

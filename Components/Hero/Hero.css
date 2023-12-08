@@ -1,0 +1,16 @@
+.hero-title {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-top: 40px;
+}
+.features-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero-title {
+  color: var(--dark-color);
+}

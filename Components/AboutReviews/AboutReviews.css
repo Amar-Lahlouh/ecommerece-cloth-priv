@@ -1,0 +1,32 @@
+.about-reviews {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  font-family: "Poppins";
+}
+.about-reviews h3 {
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--dark-color);
+}
+
+.about-reviews p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.card-data {
+  margin: auto;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+@media (max-width: 790px) {
+  .about-reviews h3 {
+    font-size: 25px;
+  }
+  .about-reviews p {
+    font-size: 16px;
+  }
+}

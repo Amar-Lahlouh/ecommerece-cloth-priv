@@ -1,0 +1,42 @@
+.sale-part {
+  text-align: center;
+  background-image: url("../../assets/shop1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80%;
+  height: 200px;
+  padding: 30px;
+  color: white;
+  font-family: "Poppins";
+  margin-bottom: 30px;
+}
+.explore {
+  width: 20%;
+}
+.explore:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.shop h5 {
+  font-weight: 600;
+  font-size: 35px;
+}
+.shop p {
+  font-style: italic;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.sale-part h5 span {
+  color: var(--dark-color);
+}
+
+@media (max-width: 790px) {
+  .sale-part h5 {
+    font-size: 25px;
+  }
+  .sale-part p {
+    font-size: 18px;
+  }
+}

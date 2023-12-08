@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.button-link:hover {
+  cursor: pointer;
+  background-color: rgb(241, 211, 223);
+}
+
+.button-link {
+  width: 40%;
+  padding: 6px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+:root {
+  --main-color: rgb(255, 230, 240);
+  --dark-color: rgb(87, 20, 47);
+}

@@ -1,0 +1,31 @@
+.feature-photo {
+  width: 190px;
+  border-radius: 10px;
+}
+.card-feature {
+  border: 1px solid lightgray;
+  padding: 4px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+.data-fet .feat-name {
+  font-weight: 700;
+  padding-top: 3px;
+}
+.data-fet {
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin: auto;
+}
+.data-fet .sale {
+  color: brown;
+  font-weight: 500;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  text-align: center;
+}
+.card-feature:hover {
+  box-shadow: 1px 4px 17px 4px rgba(0, 0, 0, 0.3);
+}

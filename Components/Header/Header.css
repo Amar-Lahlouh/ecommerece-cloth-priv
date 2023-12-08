@@ -1,0 +1,135 @@
+.info {
+  display: flex;
+  gap: 30px;
+}
+.first-header .row {
+  display: flex;
+  justify-content: space-between;
+}
+.header-two .row {
+  display: flex;
+  justify-content: space-between;
+}
+.first {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(236, 226, 228);
+}
+.header-two-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+.container-xl {
+  width: 100%;
+}
+.trend {
+  font-weight: 600;
+}
+.first-header {
+  box-shadow: 3px -6px 20px rgb(229 224 224);
+}
+
+.first-header .first {
+  padding: 20px;
+}
+.first-header .first .trend {
+  padding-left: 10px;
+}
+.logo img {
+  width: 80px;
+}
+.Links,
+.links2 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  justify-content: space-between;
+}
+.Links {
+  padding-right: 30px;
+}
+a {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+.Links a:hover {
+  color: rgb(138, 17, 67);
+}
+.links2 a:hover {
+  color: black;
+}
+.links2 a {
+  font-size: 15px;
+}
+
+.header-two {
+  background-color: var(--main-color);
+}
+.links2 {
+  /* padding-left: 30px; */
+  padding-left: 50px;
+}
+.links2 a {
+  color: rgb(138, 17, 67);
+}
+
+@media (max-width: 790px) {
+  .phone-header,
+  .email-header {
+    display: none;
+  }
+  .trend {
+    font-size: 17px;
+  }
+  .data-header {
+    display: none;
+  }
+  .Links {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(222, 205, 205);
+    left: 0px;
+    top: 110px;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+    width: 100%;
+
+    padding: 30px;
+  }
+  .responsive a {
+    padding: 10px;
+  }
+  .searchBar {
+    display: block;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin: 5px;
+
+    justify-content: center;
+  }
+
+  .links2 {
+    display: none;
+  }
+}
+@media (min-width: 790px) {
+  .searchBar {
+    display: none;
+  }
+}

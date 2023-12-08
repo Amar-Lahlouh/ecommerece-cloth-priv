@@ -1,0 +1,9 @@
+export { default as Home } from "../Pages/Home/Home";
+export { default as Shop } from "./Shop/Shop";
+export { default as About } from "./About/About";
+export { default as Contact } from "./Contact/Contact";
+export { default as Cart } from "./Cart/Cart";
+export { default as Whishlist } from "./Whishlist/Whishlist";
+export { default as Login } from "./login/Login";
+export { default as ForgotPass } from "./ForgotPass/ForgotPass";
+export { default as Signup } from "./Signup/Signup";

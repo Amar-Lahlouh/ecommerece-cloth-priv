@@ -1,0 +1,18 @@
+.img-feature {
+  width: 90px;
+  height: 100px;
+}
+.feature-card h5 {
+  color: var(--dark-color);
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.feature-card {
+  border: 2px solid lightgray;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
